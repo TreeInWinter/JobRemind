@@ -23,8 +23,8 @@ public class JobMain {
 		JOptionPane.showMessageDialog(null, "现在是" + sdf.format(new Date()),"上班打卡", JOptionPane.INFORMATION_MESSAGE);
 		
 		try {
-			Thread.sleep(5*1000);
-//			Thread.sleep(60 * 1000*60*9);
+		//	Thread.sleep(5*1000);
+			Thread.sleep(60 * 1000*60*9);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
